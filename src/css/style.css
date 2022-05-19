@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+body {
+    background: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+    margin: 10px;
+}
+
+.main div {
+    width: 50%;
+}
+
+.main .description h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.main .description p {
+    font-size: 15px;
+    line-height: 17px;
+    max-width: 300px;
+}

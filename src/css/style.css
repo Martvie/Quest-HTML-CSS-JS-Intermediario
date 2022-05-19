@@ -21,6 +21,7 @@ body {
     display: flex;
     gap: 40px;
     margin: 10px;
+    align-items: center;
 }
 
 .main div {
@@ -37,4 +38,43 @@ body {
     font-size: 15px;
     line-height: 17px;
     max-width: 300px;
+}
+
+.main .form-container {
+    height: 378px;
+    width: 340px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main .form-container .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .form-container .form input,
+.main .form-container .form textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    resize: none;
+}
+
+.main .form-container .form input {
+    height: 35px;
+}
+
+.main .form-container .form input:last-child {
+    background-color: #3CCC87;
+    color: white;
+    font-weight: 700;
+    height: 48;
+    border-color: #3CCC87;
+    cursor: pointer;
 }

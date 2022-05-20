@@ -5,7 +5,7 @@ Projeto de um formulário feito com validação em JavaScript puro, você deve s
 
 ## imagens do projeto
 <p align="center">
-<img src="">
+<img src="./src/images/screen.gif">
 
 ## Tecnologias utilizadas
 

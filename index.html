@@ -22,29 +22,30 @@
 
         <div class="form-container">
 
-            <form action="#" method="post" class="form" id="form">
+            <form class="form" id="form">
                 <div>
-                    <input type="name" name="name" id="name" placeholder="Nome completo *">
-                    <p class="warning">campo obrigatório</p>
+                    <input type="name" name="name" id="name" placeholder="Nome completo *" class="input">
+                    <p class="warning hidden" id="name">campo obrigatório</p>
                 </div>
 
                 <div>
-                    <input type="email" name="email" id="email" placeholder="Email *">
-                    <p class="warning">campo obrigatório</p>
+                    <input type="email" name="email" id="email" placeholder="Email *" class="input">
+                    <p class="warning hidden" id="email">campo obrigatório</p>
                 </div>
 
                 <div>
-                    <input type="tel" name="phone" id="phone" placeholder="Telefone *">
-                    <p class="warning">campo obrigatório</p>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefone *" class="input">
+                    <p class="warning hidden" id="phone">campo obrigatório</p>
                 </div>
 
                 <div>
-                    <textarea name="text" id="" cols="30" rows="" placeholder="Mensagem *"></textarea>
-                    <p class="warning">campo obrigatório</p>
+                    <textarea name="text" id="text" cols="30" rows="" placeholder="Mensagem *"
+                        class="textarea"></textarea>
+                    <p class="warning hidden" id="text">campo obrigatório</p>
                 </div>
                 <p>*campos obrigatórios</p>
 
-                <input type="submit">
+                <input type="submit" value="Enviar" id="submit" class="input">
 
             </form>
         </div>

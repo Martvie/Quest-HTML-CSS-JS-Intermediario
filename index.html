@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,38 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
     <main class="main">
         <div class="description">
             <h1>FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h1>
-            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.
             </p>
         </div>
 
         <div class="form-container">
 
-            <form action="" method="post" class="form">
-                <input type="name" name="name" id="name" placeholder="Nome completo *">
+            <form action="#" method="post" class="form" id="form">
+                <div>
+                    <input type="name" name="name" id="name" placeholder="Nome completo *">
+                    <p class="warning">campo obrigatório</p>
+                </div>
 
-                <input type="email" name="email" id="email" placeholder="Email *">
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Email *">
+                    <p class="warning">campo obrigatório</p>
+                </div>
 
-                <input type="tel" name="phone" id="phone" placeholder="Telefone *">
+                <div>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefone *">
+                    <p class="warning">campo obrigatório</p>
+                </div>
 
-                <textarea name="text" id="" cols="30" rows="" placeholder="Mensagem *"></textarea>
+                <div>
+                    <textarea name="text" id="" cols="30" rows="" placeholder="Mensagem *"></textarea>
+                    <p class="warning">campo obrigatório</p>
+                </div>
                 <p>*campos obrigatórios</p>
 
                 <input type="submit">
@@ -34,5 +49,8 @@
             </form>
         </div>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
+
 </html>

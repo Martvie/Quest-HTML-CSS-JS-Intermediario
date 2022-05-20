@@ -60,7 +60,7 @@ body {
     border-radius: 5px;
     border: 1px solid black;
     padding: 8px;
-    margin-top: 15px;
+    margin-top: 6px;
     font-size: 15px;
     font-weight: 400;
     resize: none;
@@ -77,4 +77,13 @@ body {
     height: 48;
     border-color: #3CCC87;
     cursor: pointer;
+}
+
+.main .form-container .form .warning {
+    color: #F52E2E;
+    visibility: hidden;
+}
+
+.display {
+    visibility: visible;
 }
